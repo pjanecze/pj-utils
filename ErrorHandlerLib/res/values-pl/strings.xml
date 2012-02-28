@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_handler_message">Wystąpił niespodziewany błąd. Chcesz go wysłać do twórcy aplikacji?</string>
+    <string name="error_handler_chooser">Wyślij email...</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+</resources>

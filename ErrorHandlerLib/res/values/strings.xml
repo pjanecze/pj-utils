@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_handler_message">There has been an unexpected error. Do you want to send it to developer?</string>
+    <string name="error_handler_chooser">Send email...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
