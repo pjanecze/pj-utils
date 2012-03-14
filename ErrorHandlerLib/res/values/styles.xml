@@ -20,4 +20,14 @@
         <item name="android:gravity">left|center_vertical</item>
         <item name="android:padding">0dp</item>
     </style>
+    
+    <style name="Widget"></style>
+    <style name="Widget.Holo"></style>
+    <style name="Widget.Holo.Checkbox">
+        <item name="android:background">@drawable/btn_check_holo_dark</item>
+    </style>
+    <style name="Widget.Holo.Light"></style>
+    <style name="Widget.Holo.Light.Checkbox">
+        <item name="android:background">@drawable/btn_check_holo_light</item>
+    </style>
 </resources>
