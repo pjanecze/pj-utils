@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Holo" />
-    <style name="Holo.Light" />
+    <style name="Widget"></style>
+    <style name="Widget.Holo"></style>
     <style name="Widget.Holo.Button" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/btn_default_holo_dark</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
@@ -18,16 +19,24 @@
     <style name="Widget.Holo.Spinner" parent="@android:style/Widget.Spinner.DropDown">
         <item name="android:background">@drawable/spinner_background_holo_dark</item>
         <item name="android:gravity">left|center_vertical</item>
-        <item name="android:padding">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="Widget.Holo.Light" ></style>
+
+    <style name="Widget.Holo.Light.Spinner" parent="@style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_holo_light</item>
     </style>
     
-    <style name="Widget"></style>
-    <style name="Widget.Holo"></style>
+
     <style name="Widget.Holo.Checkbox">
-        <item name="android:background">@drawable/btn_check_holo_dark</item>
+        <item name="android:button">@drawable/btn_check_holo_dark</item>
     </style>
     <style name="Widget.Holo.Light"></style>
     <style name="Widget.Holo.Light.Checkbox">
-        <item name="android:background">@drawable/btn_check_holo_light</item>
+        <item name="android:button">@drawable/btn_check_holo_light</item>
     </style>
 </resources>

@@ -9,6 +9,9 @@
     
     <style name="Widget.Holo.Spinner" parent="@android:style/Widget.Holo.Spinner">
     </style>
+
+    <style name="Widget.Holo.Light.Spinner" parent="@android:style/Widget.Holo.Light.Spinner">
+    </style>
     
     
     <style name="Theme"></style>
